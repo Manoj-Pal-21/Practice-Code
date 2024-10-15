@@ -1,0 +1,14 @@
+TypeScript is just a top layer of javascript.
+
+TypeScript is checking the static checking.
+
+TypeScript is a development tool which help us to right the batter code.
+
+-----------------------------------------------------------------------------------------------
+
+Numbers of Types 
+
+Number        String          Boolean
+Null          Undefined       Void
+Object        Array           Tuples           ....more
+Any           Naver           unKnown
