@@ -13,6 +13,20 @@ function App() {
     }
   };
 
+  // function throttle(fn, wait) {
+  //   let lastTime = 0;
+  //   return function (...args) {
+  //     const now = new Date().getTime();
+  //     if (now - lastTime >= wait) {
+  //       lastTime = now;
+  //       fn.apply(this, args);
+  //     }
+  //   };
+  // }
+
+  // const throttledMouseMove = throttle(handleMouseMove, 10);
+
+
   return (
     <div className="h-screen relative" onMouseMove={handleMouseMove}>
       <Circle ref={circlRef} />
