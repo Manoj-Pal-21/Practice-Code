@@ -517,40 +517,18 @@
 // console.log(obj2.address.state);
 // console.log(obj1.getGreeting());
 
-
-// call
-
-// const obj = { name: "Manoj" }
-
-// const greeting = function (a, b) {
-//     return `${a} ${this.name} ${b}`
-// }
-
-// console.log(greeting.call(obj, "Hello", "How are u"))
-
-// apply 
-
-// const obj = { name: "Manoj" }
+// call apply & bind Exp
+// const obj = {
+//     name: 'manoj'
+// };
 
 // const greeting = function (a, b) {
 //     return `${a} ${this.name} ${b}`
 // }
-
-// console.log(greeting.apply(obj, ["Hello", "How are u"]))
-
-
-// Bind
-
-
-// const obj = { name: "Manoj" }
-
-// const greeting = function (a, b) {
-//     return `${a} ${this.name} ${b}`
-// }
-
-// const bound = greeting.bind(obj)
-
-// console.log(bound("Hello", "How are u"))
+// console.log(greeting.call(obj, "Hello", "How are U"))
+// console.log(greeting.apply(obj, ["Hello", "How are U"]))
+// const result = greeting.bind(obj)
+// console.log(result("Hello", "How are U"))
 
 
 // curring

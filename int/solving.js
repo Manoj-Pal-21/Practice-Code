@@ -250,13 +250,13 @@ const array = [[2, 4], [6, 4], [6, 5]]
 
 //     for (let i = s.length - 1; i >= 0; i--) {
 //         const currentValue = romanMap[s[i]];
-        
+
 //         if (currentValue < prevValue) {
 //             total -= currentValue;
 //         } else {
 //             total += currentValue;
 //         }
-        
+
 //         prevValue = currentValue;
 //     }
 
@@ -268,3 +268,21 @@ const array = [[2, 4], [6, 4], [6, 5]]
 // console.log(romanToInt("IX"));     
 // console.log(romanToInt("LVIII")); 
 // console.log(romanToInt("MCMXCIV")); 
+
+
+/////////////////////////////////////////////////////
+
+
+// call apply & bind Exp
+
+// const obj = {
+//     name: 'manoj'
+// };
+
+// const greeting = function (a, b) {
+//     return `${a} ${this.name} ${b}`
+// }
+// console.log(greeting.call(obj, "Hello", "How are U"))
+// console.log(greeting.apply(obj, ["Hello", "How are U"]))
+// const result = greeting.bind(obj)
+// console.log(result("Hello", "How are U"))
